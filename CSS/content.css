@@ -1,0 +1,49 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  
+  .main{
+     flex: 70%;
+     background-color:white;
+     padding: 20px;
+    }
+
+    .main h2{
+      text-transform: uppercase;
+      margin-top: 40px;
+      color: var(--color-primary1);
+    }
+
+    .main img{
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+    }
+
+    .main .read-more{
+      color: white;
+      text-decoration: none;
+      background-color: var(--color-primary1);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .main .read-more:hover{
+           background-color: var(--color-primary2);     
+    }
+
+    #more-post{
+      display: block;
+      color: var(--color-primary1);
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    #more-post:hover{
+      color: var(--color-primary2);
+    }
+
+    
